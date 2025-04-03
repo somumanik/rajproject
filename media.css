@@ -80,9 +80,13 @@
       /* display: none; */
       /* position: relative; */
   }
-  .navtoggle_img .span_menu
+  .p_menu
   {
     display: block;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding-top: 15px;
     /* color: white; */
     
   }
