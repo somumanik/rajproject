@@ -84,6 +84,10 @@ footer{
 }
 
 
+#menu .dropdown li>a:hover .drop_menu
+{
+    display: block !important;
+}
 
 
 
