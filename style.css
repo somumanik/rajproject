@@ -84,7 +84,7 @@ footer{
 }
 
 
-#menu .dropdown li>a:hover .drop_menu
+#menu .dropdown:hover .dropdown-menu
 {
     display: block !important;
 }
