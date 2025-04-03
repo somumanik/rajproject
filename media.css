@@ -1,0 +1,89 @@
+@media only screen and (min-width:200px) and (max-width:575px) {
+
+    .f_col_1 h3,
+    .f_col_2 h3,
+    .f_col_3 h3 {
+        padding-top: 35px;
+        padding-left: 0px;
+    }
+
+    .f_bottm_h6 {
+        font-size: 21px;
+        text-align: center;
+    }
+
+    .f_bottm_h6_1 {
+        font-size: 12px;
+    }
+
+    .brdr1 {
+        border-bottom: 1px solid white;
+        margin-top: 30px;
+
+    }
+
+    .brdr {
+        width: 80%;
+        margin: auto;
+        padding-top: 50px;
+    }
+
+    .f_hide {
+        color: #012169;
+    }
+    .h_offcanvas_body
+    {
+        width: 365px;
+    }
+    .overlay
+    {
+        top: 10%;
+    }
+    .overlay_h1
+    {
+        font-size: 17px;
+        text-align: center;
+    }
+  .navtoggle_img
+  {
+    color: white;
+    font-size: 22px;
+    font-family: 'Montserrat', sans-serif;
+  }
+  .banner
+  {
+    padding-top: 0px;
+  }
+  footer
+  {
+    margin-top: 0px;
+  }
+  .dropdown-toggle::after
+  {
+    margin-left: 248px;
+   
+  }
+  .navbar_mobileresposive
+  {
+    border-radius: 1px solid #ccc;
+  }
+  .banner
+  {
+    /* display: none; */
+  }
+  .banner_mobile
+  {
+      background: url(./images/america/mobile.PNG) no-repeat center center;
+      background-size: cover;
+      padding-bottom: 550px;
+      width: 100%;
+      /* display: none; */
+      /* position: relative; */
+  }
+  .navtoggle_img .span_menu
+  {
+    display: block;
+    /* color: white; */
+    
+  }
+}

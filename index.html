@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Antonio:wght@100..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Antonio:wght@100..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Antonio:wght@100..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Antonio:wght@100..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="h_upperpart d-flex justify-content-lg-between align-items-lg-center d-lg-block d-none">
+            <div class="flex-grow-1 ms-3 d-flex justify-content-lg-between">
+                <div class="h_upperpart_left d-flex align-items-center gap-2">
+                    <img width="18px" src="./images/america/emailnew.png" alt="">
+                    <a href="" class="text-white text-decoration-none email_font">info@americasboatingcluboceanside.org</a>
+                </div>
+                <div class="h_upperpart_right d-lg-flex align-items-lg-center d-lg-block d-none gap-2 me-3">
+                    <div class="fbbg"><i class="fa-brands fa-facebook" alt=" " width="18px"></i></div>
+                    <div class="instbg"><img src="/images/america/insta.svg" alt="" width="18px"></div>
+                </div>
+            </div>
+        </div>
+        <section class="banner banner_mobile">
+            <div class="banner_overlay"></div>
+            <nav class="navbar navbar-expand-lg nav_menubar">
+               
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#"><img src="/images/logo-white-abc.webp" width="100px" alt=""></a>
+                    
+                    <i class="navtoggle_img d-lg-none d-block fa-solid fa-bars d-flex flex-row-reverse gap-1" alt=""
+                        data-bs-toggle="offcanvas" data-bs-target="#h_navbarCollapse" aria-controls="h_navbarCollapse"
+                        aria-expanded="false" aria-label="Toggle navigation"><span class="span_menu d-lg-none d-block"></span></i>
+
+                    <div class="offcanvas h_offcanvas_body bg-black offcanvas-end" id="h_navbarCollapse"
+                        data-bs-backdrop="static" tabindex="-1" aria-labelledby="h_navbarCollapse">
+                        <div class="offcanvas-header">
+                            <h5 class="offcanvas-title" id="staticBackdropLabel"></h5>
+                            <!-- <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                aria-label="Close"></button> -->
+                            <i class="fa-solid fa-xmark ms-auto close_icon " data-bs-dismiss="offcanvas"
+                                aria-label="Close"></i>
+                        </div>
+                        <div class="offcanvas-body ms-lg-auto navfont_menu align-items-center">
+                            <div class="ps-3 ">
+                                <ul class="navbar-nav mx-auto mb-2 mb-lg-0  ">
+                                    <li class="nav-item me-lg-2 ">
+                                        <a class="nav-link active " aria-current="page" href="#">Home</a>
+                                    </li>
+                                    <li class="nav-item me-lg-2">
+                                        <a class="nav-link" href="#">About</a>
+                                    </li>
+                                    <li class="nav-item me-lg-2">
+                                        <a class="nav-link" href="#">WebCam</a>
+                                    </li>
+                                    <li class="nav-item dropdown ">
+                                        <a class="nav-link dropdown-toggle" href="#" role="button"
+                                            data-bs-toggle="dropdown" aria-expanded="false">
+                                            Classes
+                                        </a>
+                                        <ul class="dropdown-menu bg-black drop_menu pt-lg-0 pb-lg-0">
+                                            <li><a class="dropdown-item pt-lg-3 pb-lg-3 p drop_item fs-6 "
+                                                    href="#">CLASSROOM</a></li>
+                                            <li>
+                                                <!-- <hr class="dropdown-divider bg-light p-0"> -->
+                                            </li>
+                                            <li><a class="dropdown-item pt-lg-3 pb-lg-3 drop_item_1 fs-6" href="#">HANDS ON
+                                                    WRITING</a></li>
+                                            <li>
+                                                <!-- <hr class="dropdown-divider bg-light"> -->
+                                            </li>
+                                            <li><a class="dropdown-item pt-lg-3 pb-lg-3 drop_item_2 fs-6" href="#">JUMP
+                                                    START</a></li>
+                                            <li>
+                                                <!-- <hr class="dropdown-divider bg-light"> -->
+
+                                            </li>
+                                            <li><a class="dropdown-item pt-lg-3 pb-lg-3 drop_item_3 fs-6" href="#">BOC
+                                                    PROGRAM</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link me-lg-2">Events</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link me-lg-2">Newsletter </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link me-lg-2">VSC</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link me-lg-2">SHOP</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link me-lg-2">BRIDGE</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link me-lg-2">CONTACT</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <form class="d-flex d-lg-block d-none" role="search">
+
+                                <button class="btn btn-outline-light newsign_btn" type="button">NEW MEMBER SIGN UP</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <div class="overlay">
+                <div class="container-lg container-md">
+                    <div class="row">
+                        <div class="col-12">
+                            <h1 class="overlay_h1">On-The-Water</h1>
+                            <p class="overlay_h1">Boater Education Courses</p>
+                        </div>
+                        <div class="row mx-auto">
+                            <div class="col-lg-12 bg-white rounded-3 shadow-sm mb-3 mb-lg-5">
+                                <form
+                                    class="d-xl-flex d-md-inline-flex justify-content-between align-items-center gap-2 py-xl-2 mb-xl-0 mb-md-3 py-2 pb-3">
+                                    <div class="col-lg-2 col-md-12">
+                                        <div>
+                                            <input type="date" class="form-control border-1 mb-2" id="exampleInputDate"
+                                                aria-describedby="emailHelp" placeholder="Start Date*">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-2 col-md-12">
+                                        <div>
+                                            <input type="date" class="form-control border-1 mb-2" id="exampleInputDate"
+                                                aria-describedby="emailHelp" placeholder="End Date*">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-2 col-md-12 mb-2">
+                                        <div>
+                                            <select class="form-select" aria-label="Default select example">
+                                                <option selected>State</option>
+                                                <option value="1">One</option>
+                                                <option value="2">Two</option>
+                                                <option value="3">Three</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-2 col-md-12 mb-2">
+                                        <div>
+                                            <select class="form-select" aria-label="Default select example">
+                                                <option selected>City</option>
+                                                <option value="1">One</option>
+                                                <option value="2">Two</option>
+                                                <option value="3">Three</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 col-md-12 mb-2">
+                                        <div>
+                                            <select class="form-select" aria-label="Default select example">
+                                                <option selected>Course</option>
+                                                <option value="1">One</option>
+                                                <option value="2">Two</option>
+                                                <option value="3">Three</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <button type="submit" class="btn btn-primary rounded-circle">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                            fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                                            <path
+                                                d="M11.742 10.344a5.5 5.5 0 1 0-1.397 1.397l3.646 3.646a1 1 0 0 0 1.415-1.414l-3.644-3.629zm-5.242-.344a4.5 4.5 0 1 1 .001-9.001A4.5 4.5 0 0 1 6.5 10z" />
+                                        </svg>
+                                    </button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
+
+
+    <section></section>
+
+
+    <footer class="container-fluid">
+        <div class="container footer">
+            <div class="row f_row">
+                <div class="col-lg-3 col-sm-3 col-12 f_col">
+                    <img src="https://americasboatingcluboceanside.org/wp-content/uploads/2024/08/logo-white-abc.webp"
+                        width="40%" alt="" class="pb-4">
+                    <h5 class="f_h5 d-lg-block d-none fs-5">America’s Boating Club –</h5>
+                    <p class="f_p d-lg-block d-none fs-6">Oceanside is a proud member of <br /> the nationwide
+                        “America’s <br /> Boating
+                        Club®”, fostering learning<br /> and camaraderie among boaters <br /> of all levels.</p>
+                    <p class="text-white d-lg-none fs-6">America’s Boating Club – Oceanside is a proud member of the
+                        nationwide “America’s Boating Club®”, fostering learning and camaraderie among boaters of all
+                        levels.</p>
+                    <button class="btn f_btn">JOIN ABC TODAY</button>
+                </div>
+                <div class="col-lg-3 col-sm-3 col-12 f_col_1 pt-lg-0 pt-5">
+                    <h3 class="">Quick Links</h3>
+                    <nav>
+                        <ul class="ps-0">
+                            <li><a href="">Home</a></li>
+                            <li><a href="">About</a></li>
+                            <li><a href="">Webcam</a></li>
+                            <li><a href="">Classes</a></li>
+                            <li><a href="">Events</a></li>
+                            <li><a href="">Newsletters</a></li>
+                            <li><a href="">Vessel Safety Check</a></li>
+                            <li><a href="">Shop</a></li></a>
+                            <li><a href="">Contact</a></li></a>
+                        </ul>
+                    </nav>
+
+                </div>
+                <div class="col-lg-3 col-sm-3 col-12 f_col_2 pt-lg-0 pt-5">
+                    <h3>Legal</h3>
+                    <nav>
+                        <ul class="ps-0">
+                            <li><a href="">USPS</a></li>
+                            <li><a href="">Privacy Policy</a></li>
+                            <li><a href="">Trademark</a></li>
+                            <li><a href="">Disclaimer</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-lg-3 col-sm-3 col-12 f_col_3 pt-lg-0 pt-5">
+                    <h3>Contact Information</h3>
+                    <nav>
+                        <ul class="ps-0">
+                            <li> <a href="#">+1 760-468-6212</a></li>
+                            <li> <a href="#">info@abchot.org</a></li>
+                            <li>1950 N Harbor Dr, Oceanside</li>
+                        </ul>
+                    </nav>
+                    <p></p>
+
+                </div>
+            </div>
+
+        </div>
+
+        <div class="brdr1 w-100"></div>
+        <div class="d-lg-none f_hide">class</div>
+        <div class="brdr"></div>
+
+        <div class="f_bottm">
+            <h6 class="mb-3 f_bottm_h6"> <i class="fa-regular fa-copyright"></i> 2025 Americas Boating Club Oceanside
+            </h6>
+            <h6 class="f_bottm_h6_1">Designed with Love by webzyMEDIA</h6>
+        </div>
+    </footer>
+</body>
+
+</html>
